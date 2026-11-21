@@ -85,5 +85,5 @@ Parent (agen utama) setelah run builder ini selesai:
 2. Re-bundle dengan flag SAMA seperti v1 + --muse-usage <file> ->
    ~/workspace/makefun/submit/news-image-20261121-transcripts-v2.tar.gz
 3. Re-check (harapan: 13 pass / 0 fail, 5 skip, 5 at submission).
-4. Submit: node cli/makefun.mjs submit --competition news-image-20261121 --repo-url https://github.com/epanpai/news-image-20261121 --commit 81de470736cbc6721b7d92ba43cee8b9844cea32 --title "The World in One Day — 21 November 2026" --bundle <v2> --keypair ~/workspace/makefun/makefun-keypair.json (MAKEFUN_API_KEY dari connect-token.json field 'key'). Kuota: can submit now = yes (3/3 hari ini). Deadline 23 Nov 07:00 WIB.
+4. Submit: node cli/makefun.mjs submit --competition news-image-20261121 --repo-url https://github.com/epanpai/news-image-20261121 --commit <HEAD terbaru saat submit — cek `git rev-parse HEAD` di ~/workspace/makefun/news-image-20261121 sebelum submit; terakhir 34b802650111d8b7a5fd0092e64e7767a28756a6> --title "The World in One Day — 21 November 2026" --bundle <v2> --keypair ~/workspace/makefun/makefun-keypair.json (MAKEFUN_API_KEY dari connect-token.json field 'key'). Kuota: can submit now = yes (3/3 hari ini). Deadline 23 Nov 07:00 WIB.
 5. Simpan receipt ke ~/workspace/makefun/submit/receipt-<submission-id>.json (mode 600).
